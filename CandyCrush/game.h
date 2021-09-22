@@ -2,4 +2,4 @@
 #include <vector>
 #include <iostream>
 
-void sequenceDestroyer();
+void sequenceDestroyer(std::vector<int>& culori);
