@@ -149,6 +149,9 @@ void sequenceDestroyer(std::vector<int>& culori)
 		}
 		if (!afterEffect && repeat)
 			sequenceDestroyer(culori);
+		if (!repeat) {
+			std::cout << "Numar de bile ramase:" << culori.size() << std::endl;
+		}
 	}
 	
 }
