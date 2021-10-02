@@ -1,11 +1,11 @@
 # CandyCrush
-Algoritm ce simuleaza jocul "CandyCrush". Functia va cauta cea mai mare secventa  de culori din stanga vectorului, culorile fiind reprezentate de numere. Daca prin eliminarea 
-grupului de "culori" se formeaza alta secventa aceasta va fi eliminata la randul ei urmand sa se testeze posibilitatea crearii altei secvente prin eliminarea celeilalte. Procesul
-se repeta pana nu mai exista alte secvente create prin eliminarea altora. Ajuns in acest punct, algoritmul va cauta din nou cea mai mare grupare de "culori" aflata cel mai 
-aproape de inceputul vectorului.
-Exemplu:
-*5 1 3 3 2 2 2 2 3 1 1 5 6 4 4 4 4 4 7
-*5 1 3 3 3 1 1 5 6 4 4 4 4 7
-*5 1 1 1 5 6 4 4 4 4 
-*5 5 6 4 4 4 4 7
-*5 5 6 7
+Algorithm that simulates the game"CandyCrush:.\
+The function will search for the biggest and closest to the left sequance of "colors" from the vector. The colors will be represented by numbers.\
+If after the elimination of the group it is created another sequance of minimum 3 "colors" it will be deleted aswell. This chanelling effect it's repeated 
+until there are no more sequance formed. From this point the whole process it's retaken as long as there is at least 1 sequence of minimum 3 "colors".\
+>Example:\
+>5 1 3 3 2 2 2 2 3 1 1 5 6 4 4 4 4 4 7\
+>5 1 3 3 3 1 1 5 6 4 4 4 4 7\
+>5 1 1 1 5 6 4 4 4 4 \
+>5 5 6 4 4 4 4 7\
+>5 5 6 7
